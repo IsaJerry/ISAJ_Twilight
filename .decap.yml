@@ -9,7 +9,7 @@ backend:
 
 
 # 设置后台系统语言 (zh_Hans 简体中文 | en 英文 | ...)
-locale: zh
+locale: zh_Hans
 
 
 # 媒体目录配置
