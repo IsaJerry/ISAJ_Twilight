@@ -359,12 +359,12 @@ collections:
         # 集合名称
         name: "page_about"
         # 后台显示标签
-        label: "About Page"
+        label: "关于页面"
         # 文件列表
         files:
             - # about.md
                 name: "about"
-                label: "About"
+                label: "关于"
                 file: "src/content/about.md"
                 fields:
                     #- # 名称
