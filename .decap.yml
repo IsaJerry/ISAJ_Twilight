@@ -22,7 +22,7 @@ collections:
 
     - # 文章
         # 集合名称
-        name: "posts"
+        name: "文章"
         # 后台显示标签
         label: "Posts"
         # 内容存储目录
