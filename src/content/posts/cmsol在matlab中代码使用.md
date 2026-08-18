@@ -1,13 +1,15 @@
 ---
 title: CMSOL在Matlab中代码使用
 published: 2026-08-18T16:47:00.000+08:00
-updated: 2026-08-18T16:47:00.000+08:00
+updated: 2026-08-18T17:01:00.000+08:00
 description: 代码使用注意
 tags:
   - COMSOL
 draft: false
 ---
-不要在matlab中创建plot等表格，在COMSOL中创建然后在Matlab中调用如下所示：
+不要在matlab中直接创建plot等表格，应在COMSOL中创建然后在Matlab中调用。
+
+如下所示：
 
 ```matlab
 model.result.export('plot1').set('plotgroup', 'pg3');
@@ -62,5 +64,4 @@ for i = 1:100
     model.hist.disable;
     toc
 end
-
 ```
