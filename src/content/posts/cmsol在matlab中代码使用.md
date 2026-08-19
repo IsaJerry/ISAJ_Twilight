@@ -5,6 +5,7 @@ updated: 2026-08-18T17:01:00.000+08:00
 description: 代码使用注意
 tags:
   - COMSOL
+category: COMSOL6.3
 draft: false
 ---
 不要在matlab中直接创建plot等表格，应在COMSOL中创建然后在Matlab中调用。
