@@ -48,7 +48,7 @@ site:
     # 壁纸配置
     wallpaper:
         # 模式 ("banner" 横幅 | "fullscreen" 全屏 | "none" 纯色)
-        mode: "banner"
+        mode: "none"
         # 图片源配置 (fullscreen 和 banner 模式共享)
         src:
             # 桌面壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
@@ -370,7 +370,7 @@ footer:
 # 粒子特效配置
 particle:
     # 启用粒子特效
-    enable: true
+    enable: false
     # 粒子数量
     particleNum: 12
     # 粒子越界限制次数，-1为无限循环
