@@ -1,11 +1,11 @@
 ---
 title: CMSOL在Matlab中代码使用
 published: 2026-08-18T16:47:00.000+08:00
-updated: 2026-08-19T18:05:00.000+08:00
+updated: 2026-08-19T18:09:00.000+08:00
 description: 代码使用注意
 tags:
   - COMSOL
-category: COMSOL6.3
+category: Matlab2021R
 draft: false
 ---
 不要在matlab中直接创建plot等表格，应在COMSOL中创建然后在Matlab中调用。
