@@ -1,9 +1,10 @@
 ---
 title: tensflow2.0系列自定义设置单步训练过程
 published: 2026-08-19T17:56:00.000+08:00
-updated: 2026-08-19T17:56:00.000+08:00
+updated: 2026-08-19T18:04:00.000+08:00
 tags:
   - TensFlow
+category: TensFlow2.x
 draft: false
 ---
 自定义训练训练步骤可以单独设置一个tensflow函数，示例如下：
