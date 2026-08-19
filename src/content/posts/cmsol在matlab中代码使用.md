@@ -1,7 +1,7 @@
 ---
 title: CMSOL在Matlab中代码使用
 published: 2026-08-18T16:47:00.000+08:00
-updated: 2026-08-18T17:01:00.000+08:00
+updated: 2026-08-19T18:05:00.000+08:00
 description: 代码使用注意
 tags:
   - COMSOL
