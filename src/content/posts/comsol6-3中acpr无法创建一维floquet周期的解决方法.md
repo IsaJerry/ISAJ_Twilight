@@ -1,9 +1,11 @@
 ---
 title: COMSOL6.3中acpr无法创建一维Floquet周期的解决方法
 published: 2026-08-22T19:51:00.000+08:00
-updated: 2026-08-22T19:51:00.000+08:00
+updated: 2026-08-22T20:02:00.000+08:00
 tags:
-  - COMSOL;acpr;COMSOL6.3
+  - COMSOL
+  - acpr
+  - COMSOL6.3
 category: COMSOL
 draft: false
 ---
