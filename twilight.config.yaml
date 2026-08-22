@@ -53,8 +53,8 @@ site:
         src:
             # 桌面壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             desktop:
-                - "/assets/images/bg1.jpg"
-                - "/assets/images/bg2.jpg"
+                - "/assets/images/bg1.png"
+                - "/assets/images/bg2.png"
                 # - "/assets/images/desktopWallpaper_3.jpg"
             # 移动壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             mobile:
