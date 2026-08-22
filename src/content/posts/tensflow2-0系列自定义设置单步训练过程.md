@@ -1,7 +1,7 @@
 ---
-title: tensflow2.0系列自定义设置单步训练过程
+title: tensflow2.0系列-自定义设置单步训练过程
 published: 2026-08-19T17:56:00.000+08:00
-updated: 2026-08-19T18:04:00.000+08:00
+updated: 2026-08-22T17:42:00.000+08:00
 tags:
   - TensFlow
 category: TensFlow2.x
