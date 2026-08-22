@@ -1,7 +1,7 @@
 ---
-title: tensflow2.0系列-自动训练系列
+title: tensflow2.0系列-自动训练问题
 published: 2026-08-22T17:42:00.000+08:00
-updated: 2026-08-22T17:42:00.000+08:00
+updated: 2026-08-22T18:04:00.000+08:00
 tags:
   - TensFlow
 category: TensFlow2.x
@@ -95,6 +95,34 @@ history = model.fit(
         validation_data=(confirm_pm, confirm_bg),
         epochs=epochs,
         batch_size=epochs,
+        verbose=1
+    )
+```
+
+**可选：**自定义回调
+
+示例为训练早停，监控`'val_loss'`， 当在达到`50 epoch`之后且因为`mode='min‘` 模式是最小，所以`’val_loss' < 1e-6`时`restore_best_weights=True`存储最佳模型参数权重，并停止训练。
+
+```
+model.compile(
+        optimizer=tf.keras.optimizers.Adam(1e-3),
+        loss='mean_squared_error'
+    )
+    early_stopping = tf.keras.callbacks.EarlyStopping(
+        monitor='val_loss',
+        patience=50,
+        min_delta=1e-6,
+        mode='min',
+        restore_best_weights=True,
+        verbose=1
+    )
+    model.fit(
+        x=train_pm,
+        y=train_bg,
+        validation_data=[confirm_pm, confirm_bg],
+        batch_size=batch_size,
+        epochs=epochs,
+        callbacks=[early_stopping],
         verbose=1
     )
 ```
